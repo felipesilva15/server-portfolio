@@ -1,20 +1,26 @@
 version: '3.8'
 
 services:
+  kanban-tool-api:
+    image: felipesilva15/kanban-tool-api
+    restart: always
+    ports:
+      - "9100:8000"
+
   alpha-games-api:
     image: felipesilva15/alpha-games-api
     restart: always
     ports:
       - "9101:8000"
 
-  foxtrot-toystore:
-    image: felipesilva15/foxtrot-toystore
-    restart: always
-    ports:
-      - "9001:8000"
-
   bravo4fun:
     image: felipesilva15/bravo4fun
     restart: always
     ports:
       - "9000:80"
+
+  foxtrot-toystore:
+    image: felipesilva15/foxtrot-toystore
+    restart: always
+    ports:
+      - "9001:8000"

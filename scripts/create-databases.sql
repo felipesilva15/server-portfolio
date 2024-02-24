@@ -1,0 +1,1 @@
+CREATE DATABASE filmsapilaravel IF NOT EXISTS;

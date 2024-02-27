@@ -13,6 +13,12 @@ services:
     ports:
       - "9101:8000"
 
+  films-api-laravel:
+    image: felipesilva15/films-api-laravel
+    restart: always
+    ports:
+      - "9102:8000"
+
   bravo4fun:
     image: felipesilva15/bravo4fun
     restart: always

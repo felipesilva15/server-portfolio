@@ -5,7 +5,7 @@ services:
     image: felipesilva15/kanban-tool-api
     restart: always
     ports:
-      - "9100:8000"
+      - "9100:3000"
 
   alpha-games-api:
     image: felipesilva15/alpha-games-api

@@ -19,6 +19,12 @@ services:
     ports:
       - "9102:8000"
 
+  fitmotive-api:
+    image: felipesilva15/fitmotive-api
+    restart: always
+    ports:
+      - "9103:8000"
+
   bravo4fun:
     image: felipesilva15/bravo4fun
     restart: always

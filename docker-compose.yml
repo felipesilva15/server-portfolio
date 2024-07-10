@@ -36,3 +36,9 @@ services:
     restart: always
     ports:
       - "9001:8000"
+
+  fitmotive-app:
+    image: felipesilva15/foxtrot-app
+    restart: always
+    ports:
+      - "9002:8000"

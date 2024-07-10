@@ -41,4 +41,4 @@ services:
     image: felipesilva15/fitmotive-app
     restart: always
     ports:
-      - "9002:8000"
+      - "9002:80"

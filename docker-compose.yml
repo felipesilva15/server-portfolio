@@ -42,3 +42,9 @@ services:
     restart: always
     ports:
       - "9002:80"
+
+  docs:
+    image: felipesilva15/docs
+    restart: always
+    ports:
+      - "9003:80"

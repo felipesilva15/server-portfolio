@@ -25,6 +25,12 @@ services:
     ports:
       - "9103:8000"
 
+  desafio-yetzcards-api:
+    image: felipesilva15/desafio-yetzcards-api
+    restart: always
+    ports:
+      - "9104:8000"
+
   bravo4fun:
     image: felipesilva15/bravo4fun
     restart: always
@@ -42,9 +48,15 @@ services:
     restart: always
     ports:
       - "9002:80"
-
+  
   docs:
     image: felipesilva15/docs
     restart: always
     ports:
       - "9003:80"
+
+  desafio-yetzcards-app:
+    image: felipesilva15/desafio-yetzcards-app
+    restart: always
+    ports:
+      - "9004:80"

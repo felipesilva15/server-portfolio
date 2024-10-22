@@ -31,6 +31,12 @@ services:
     ports:
       - "9104:8000"
 
+  employees-api:
+    image: felipesilva15/employees-api
+    restart: always
+    ports:
+      - "9105:8000"
+
   bravo4fun:
     image: felipesilva15/bravo4fun
     restart: always

@@ -37,6 +37,12 @@ services:
     ports:
       - "9105:8000"
 
+  rifa-api:
+    image: felipesilva15/rifa-api
+    restart: always
+    ports:
+      - "9106:8000"
+
   bravo4fun:
     image: felipesilva15/bravo4fun
     restart: always
@@ -66,3 +72,9 @@ services:
     restart: always
     ports:
       - "9004:80"
+
+  rifa-app:
+    image: felipesilva15/rifa-app
+    restart: always
+    ports:
+      - "9005:80"

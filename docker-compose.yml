@@ -78,3 +78,9 @@ services:
     restart: always
     ports:
       - "9005:80"
+
+  website-rifa-xbox:
+    image: felipesilva15/website-rifa-xbox
+    restart: always
+    ports:
+      - "9006:80"
